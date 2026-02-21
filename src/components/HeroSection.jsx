@@ -336,7 +336,7 @@ export const HeroSection = () => {
                 <a href="#projects" className="vs-cta-primary">
                   View Projects <ArrowUpRight size={14} />
                 </a>
-                <a href="/resume.pdf" download className="vs-cta-ghost">Résumé ↓</a>
+                <a href="/vinuda_resume.pdf" download className="vs-cta-ghost">Résumé ↓</a>
               </div>
 
               {/* Stats */}

@@ -20,9 +20,6 @@ const SKILLS = [
   { name: "Git / GitHub", level: 90, category: "tools" }, { name: "Figma", level: 80, category: "tools" }, { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const CATEGORIES = [
-  { id: "all", label: "All Skills" }, { id: "frontend", label: "Frontend" }, { id: "backend", label: "Backend" }, { id: "ai", label: "AI / ML" }, { id: "tools", label: "Tools" },
-];
 
 /* Blue accent scale for different categories */
 const CAT_ACCENT = { frontend: "#3b82f6", backend: "#60a5fa", ai: "#93c5fd", tools: "#bfdbfe" };
@@ -65,8 +62,19 @@ function SkillCard({ skill, index, barsVisible }) {
           <span style={{ fontFamily: "'Outfit',sans-serif", fontWeight: 500, fontSize: "0.88rem", color: hovered ? "#fff" : "var(--text-primary)", transition: "color .2s", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{skill.name}</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", flexShrink: 0 }}>
-          <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.56rem", letterSpacing: "0.08em", textTransform: "uppercase", padding: "2px 6px", borderRadius: "2px", border: `1px solid ${levelColor(skill.level)}30`, background: `${levelColor(skill.level)}10`, color: levelColor(skill.level) }}>{levelLabel(skill.level)}</span>
-          <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.68rem", fontWeight: 500, color: hovered ? accent : "var(--text-muted)", transition: "color .2s", minWidth: "2.5rem", textAlign: "right" }}>{skill.level}%</span>
+          <span
+            style={{
+              fontFamily: "'JetBrains Mono',monospace",
+              fontSize: "0.68rem",
+              fontWeight: 500,
+              color: hovered ? accent : "var(--text-muted)",
+              transition: "color .2s",
+              minWidth: "2.5rem",
+              textAlign: "right"
+            }}
+          >
+            {skill.level}%
+          </span>
         </div>
       </div>
       <div className="prog-track">

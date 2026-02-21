@@ -34,7 +34,7 @@ const CARDS = [
     label: "AI / ML",
     title: "AI & Machine Learning",
     desc: "Implementing AI workflows, multi-agent systems, NLP pipelines, and ML models that automate real-world tasks with measurable business impact.",
-    tags: ["CrewAI", "TensorFlow", "NLP", "Python"],
+    tags: ["CrewAI", "NLP", "Python"],
   },
   {
     Icon: Rocket,
@@ -42,7 +42,7 @@ const CARDS = [
     label: "Innovation",
     title: "Research & Prototyping",
     desc: "Leading projects at the intersection of AI, embedded systems, and modern web/mobile tech combining engineering rigour with creative problem-solving.",
-    tags: ["IoT", "Embedded", "Research", "Prototyping"],
+    tags: ["IoT", "Research", "Prototyping"],
   },
 ];
 
@@ -168,7 +168,7 @@ export const AboutSection = () => {
                 I'm a <strong style={{ color: "var(--text-primary)", fontWeight: 600 }}>software engineering undergraduate</strong> passionate about building intelligent full-stack applications at the intersection of AI, web, and mobile technologies.
               </p>
               <p style={{ fontSize: "1rem", textAlign: "justify", lineHeight: 1.75, color: "var(--text-secondary)", marginBottom: "2.5rem" }}>
-                I design solutions that <strong style={{ color: "var(--text-primary)", fontWeight: 600 }}>automate complex workflows</strong>, elevate user experiences, and deliver measurable value — constantly pushing boundaries with AI/ML and modern frameworks.
+                I design solutions that <strong style={{ color: "var(--text-primary)", fontWeight: 600 }}>automate complex workflows</strong>, elevate user experiences, and deliver measurable value constantly pushing boundaries with AI/ML and modern frameworks.
               </p>
 
             </div>

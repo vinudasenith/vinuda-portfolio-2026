@@ -17,17 +17,21 @@ function useReveal(threshold = 0.08) {
 }
 
 const PROJECTS = [
-  { id: 1, emoji: "🦺", accent: "#3b82f6", featured: true, title: "VisionAssist Care Hat", category: "Embedded · AI", description: "Helps visually impaired people move safely using sensors and a mobile app to detect obstacles, give directions, and send fall alerts.", image: "/projects/vision-assist.jpeg", tags: ["React Native", "Node.js", "Express.js", "MongoDB"], demoUrl: "#", githubUrl: "#" },
+  { id: 1, emoji: "🦺", accent: "#3b82f6", featured: true, title: "VisionAssist Care (University Group Project) ", category: "Embedded · AI", description: "Helps visually impaired people move safely using sensors and a mobile app to detect obstacles, give directions, and send fall alerts.", image: "/projects/vision-assist.jpeg", tags: ["React Native", "Node.js", "Express.js", "MongoDB"], demoUrl: "https://www.visionassistcare.com/", githubUrl: "https://github.com/methirabinath/Vision-Assist-group-repository.git" },
 
-  { id: 2, emoji: "🤖", accent: "#60a5fa", featured: true, title: "AI Autonomous Workflow", category: "AI · Automation", description: "Multi-agent web app that plans, researches, and reviews work. Users describe tasks in plain language  agents handle the rest.", image: "/projects/ai-workflow.png", tags: ["Python", "CrewAI", "Streamlit", "AI", "Automation"], demoUrl: "#", githubUrl: "https://github.com/vinudasenith/AI-Autonomous-Workflow-Assistant.git" },
+  { id: 2, emoji: "🤖", accent: "#60a5fa", featured: true, title: "AI Autonomous Workflow Assistant", category: "AI · Automation", description: "Multi-agent web app that plans, researches, and reviews work. Users describe tasks in plain language  agents handle the rest.", image: "/projects/ai-workflow.png", tags: ["Python", "CrewAI", "Streamlit", "AI", "Automation"], demoUrl: "https://ai-autonomous-workflow-assistant-apecr9zfau4s5lpgtdz8od.streamlit.app/", githubUrl: "https://github.com/vinudasenith/AI-Autonomous-Workflow-Assistant.git" },
 
   { id: 3, emoji: "📄", accent: "#93c5fd", featured: false, title: "AI Research Report Generator", category: "AI · Productivity", description: "Automatically researches, summarises, and writes full reports from a topic. Download as Markdown or PDF in seconds.", image: "/projects/ai-report.png", tags: ["Python", "CrewAI", "Streamlit", "AI"], demoUrl: "https://ai-research-report-generator-xvscoazp7pm8qcadtks6df.streamlit.app/", githubUrl: "https://github.com/vinudasenith/ai-research-report-generator.git" },
 
-  { id: 4, emoji: "🚗", accent: "#3b82f6", featured: false, title: "Drive Now — Car Rental", category: "Full-Stack · Platform", description: "Full-stack cab booking platform with car browsing, ride booking, user reviews, and a complete admin dashboard.", image: "/projects/drive-now.png", tags: ["React", "Node.js", "Express.js", "MongoDB"], demoUrl: "https://drive-now-frontend-seven.vercel.app/", githubUrl: "https://github.com/vinudasenith/drive-now-frontend.git" },
+  { id: 4, emoji: "📋", accent: "#93c5fd", featured: false, title: "Resume Matcher Pro", category: "AI · Career Tools", description: "ATS-friendly resume builder with scoring, PDF downloads, AI career chatbot, and admin tools.", image: "/projects/resume-matcher.png", tags: ["Java", "Spring Boot", "Angular", "AI", "PostgreSQL"], demoUrl: "#", githubUrl: "https://github.com/vinudasenith/resume-app-backend.git" },
 
-  { id: 5, emoji: "🏰", accent: "#60a5fa", featured: false, title: "Fortress Haven Resort", category: "Full-Stack · Booking", description: "Hotel booking system where guests browse rooms, make reservations, and explore activities. Full admin management.", image: "/projects/hotel-booking.png", tags: ["Java", "Spring Boot", "Angular", "PostgreSQL", "Tailwind"], demoUrl: "#", githubUrl: "https://github.com/vinudasenith/hotel-booking-backend.git" },
+  { id: 5, emoji: "🏰", accent: "#60a5fa", featured: false, title: "Fortress Haven Resort", category: "Full-Stack · Booking", description: "Hotel booking system where guests browse rooms, make reservations, and explore activities. Full admin management.", image: "/projects/hotel-booking.png", tags: ["Java", "Spring Boot", "Angular", "MongoDB", "Tailwind"], demoUrl: "#", githubUrl: "https://github.com/vinudasenith/hotel-booking-backend.git" },
 
-  { id: 6, emoji: "📋", accent: "#93c5fd", featured: false, title: "Resume Matcher Pro", category: "AI · Career Tools", description: "ATS-friendly resume builder with scoring, PDF downloads, AI career chatbot, and admin tools.", image: "/projects/resume-matcher.png", tags: ["Java", "Spring Boot", "Angular", "AI", "MongoDB"], demoUrl: "#", githubUrl: "https://github.com/vinudasenith/resume-app-backend.git" },
+  { id: 6, emoji: "🚗", accent: "#3b82f6", featured: false, title: "Drive Now", category: "Full-Stack · Platform", description: "Full-stack cab booking platform with car browsing, ride booking, user reviews, and a complete admin dashboard.", image: "/projects/drive-now.png", tags: ["Javascript", "React", "Node.js", "Express.js", "MongoDB"], demoUrl: "https://drive-now-frontend-seven.vercel.app/", githubUrl: "https://github.com/vinudasenith/drive-now-frontend.git" },
+
+
+
+
 ];
 
 const PROJ_STYLES = `
